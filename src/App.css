@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+.values{
+  border: 30px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.value{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.res{
+  color: rgb(255, 40, 40);
+}
+
+#tble{
+  margin-top: 50px;
+}
+
+.slbt{
+  border-radius: 50%;
+  font: bolder;
+  color: #61dafb;
+  border-color: aquamarine;
+  font-size: larger;
+  float: right;
+  margin: 20px;
+}
+
+.tempinput{
+  flex-direction: row;
+}
+
+.eqbtn{
+  margin-left: 75%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.eqntyp{
+  margin-left: 10%;
+}
+
+.tempinput{
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph{
+  margin: 10px 20%;
+}
+
+.inputgrps{
+  width: 100%;
+}
+
+.upld{
+  margin: 20px 10% 20px 2%;
+}
+
+.modulus{
+  margin-left: 10px;
+  width: 35%;
+}
+
+.modulus:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.res{
+  margin-left: 10px;
+}
+
+.errpara{
+  margin: 20px;
+  font-weight: bolder;
+}
