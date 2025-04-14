@@ -36,7 +36,7 @@ async function predicttemp(temp, Amparr, Amp){
   }
   const result = regression.linear(data);
   const res = result.predict(Amp);
-  console.log(res);
+  console.log(result);
   return res;
 }
 

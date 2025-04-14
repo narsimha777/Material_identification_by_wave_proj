@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import Papa from 'papaparse';
 const CsvUploader = ({setTOF, setAmp, units, setUnits}) => {
 
-    const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
   // Function to handle CSV file upload and parse it using PapaParse
+
+  // files.map(file=>())
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     if (!file) {

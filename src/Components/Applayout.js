@@ -26,6 +26,9 @@ export default function Applayout({TOF, setTOF, Amp, setAmp, units, setUnits, le
                                 <NavLink className="nav-link active" aria-current="page" to={ROUTES.temperature()}>Temperature</NavLink>
                             </li>
                             <li className="nav-item">
+                                <NavLink className="nav-link active" aria-current="page" to={ROUTES.temp()}>Temperature-TOF</NavLink>
+                            </li>
+                            <li className="nav-item">
                                 <NavLink className="nav-link active" aria-current="page" to={ROUTES.poisonratio()}>PoisonRatio</NavLink>
                             </li>
                             <li className="nav-item">
